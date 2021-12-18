@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0 ;
+    background: color #F0F2F5; ;
+    color:#1C1E21;
+    background-color: rgb(235, 233, 233);
+
+}
+main{
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    margin-left: 10%;
+    background-color: rgb(235, 233, 233);
+   
+}
+footer{
+    height: 30vh;
+   margin-right: 0%;
+   margin-left: 0%;
+    position: relative;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin-top: 10%;
+  
+    
+}
+.logo{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#image{
+    height: 106x;
+    width: 300px;
+    margin-bottom: -14px;
+ 
+}
+
+.logo h2{
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    width: 500px;
+    padding-left: 23px;
+    font-weight: normal;
+    width: 569px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #aaa;
+
+
+     
+}
+.input{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8spx;
+    border-color: white;
+    
+}
+
+#loginbutton{
+    background-color: rgb(8, 131, 172);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 8px;
+}
+ #forgotten{
+    text-align: center;
+    padding-top: 2px;
+    color: blue;
+    font-size: 14px;
+    border-bottom: 1px  rgb(58, 57, 57);
+    box-shadow: 1px  solid white;
+    text-decoration: none;
+    border-bottom: 1px solid #dddfe2;
+    
+    
+    
+}
+#forgotten:hover{
+    text-decoration: underline;
+}
+
+.new-account{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(40, 167, 40);
+    color: white;
+    border-color: white;
+    
+}
+.create-page{
+    color: black;
+    text-decoration: none;
+
+}
+.create-page:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+   font-size: 14px;
+
+}
+
+
+
+
+
+footer{
+    height: 30vh;
+   margin-right: 0%;
+   margin-left: 0%;
+    position: relative;
+    background-color: white;
+}
+.footer-container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.footer-container ol{
+    display:flex;
+    
+    flex-direction: row;
+    text-align: start;
+    list-style-type: none;
+    border-bottom: 1px solid #dddfe2;
+    
+}
+
+ li{
+    margin: 5px;
+    color: grey;
+    
+   
+}
+.lang{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.lang:hover{
+    text-decoration:underline;
+}
+.plusbutton{
+    margin: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top:0px ;
+    padding-bottom: 0px;
+   
+}
+.footer-container-2{
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-left: 10%;
+    margin-right: 1%;
+
+}
+.footer-container-2 ol{
+    
+    display:flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    text-align: start;
+    list-style-type: none;
+    padding-right: 30%;
+   
+    
+}
+.small{
+    display: flex;
+    flex-direction: column;
+    
+}
